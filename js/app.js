@@ -75,11 +75,11 @@ function getObjectKey(obj, value) {
 burgerBtn.onclick = () => {
     if (menuOpened) {
         burgerBtn.classList.remove("open")
-        burgerMenu.classList.remove("close")
+        burgerMenu.classList.add("close")
         menuOpened = false
     } else {
         burgerBtn.classList.add("open")
-        burgerMenu.classList.add("close")
+        burgerMenu.classList.remove("close")
         menuOpened = true
     }
 }
