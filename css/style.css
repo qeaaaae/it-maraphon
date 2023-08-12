@@ -622,4 +622,10 @@ header {
       .nav__link {
         font-size: 18px;
       }
+
+      .nav__links {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+      }
 }
